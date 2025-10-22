@@ -1,0 +1,43 @@
+@import "tailwindcss";
+@import "./assets/fonts.css";
+
+:root {
+	--font-sans: "SUIT";
+}
+
+/* intro text 밑줄 효과 */
+.underline-text {
+	position: relative;
+	display: inline-block;
+	width: 100%;
+	color: #fff;
+	font-size: 24px;
+	font-weight: 700;
+}
+
+.underline-text::after {
+	content: "";
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	width: 0;
+	height: 2px;
+	background-color: #fff;
+	transition: width 0.5s ease-in-out;
+}
+
+.underline-text.rendered::after {
+	width: 100%;
+}
+
+h1.content-title {
+	font-size: 32px;
+	font-weight: 700;
+	color: #fff;
+}
+
+h2.content-title {
+	font-size: 22px;
+	font-weight: 700;
+	color: #fff;
+}
