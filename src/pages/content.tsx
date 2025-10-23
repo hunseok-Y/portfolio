@@ -4,7 +4,7 @@ import Tab from "../components/tab";
 export default function Content() {
 	return (
 		<div>
-			<div className="flex relative gap-x-[40px]">
+			<div className="flex relative gap-x-[40px] relative">
 				<Tab />
 				<Outlet />
 			</div>
