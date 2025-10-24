@@ -83,7 +83,7 @@ export default function PortFolio() {
 								</div>
 								<div className="bg-white inline-flex items-center gap-x-1 px-2.5 py-1 rounded-[6px]">
 									<div className="w-[16px] h-[16px]">
-										<img src="/images/icon_css.svg" alt="" className="object-center object-contain w-full h-full" />
+										<img src="/images/icon_css.png" alt="" className="object-center object-contain w-full h-full" />
 									</div>
 									<span className="font-[700]">CSS</span>
 								</div>
@@ -191,11 +191,22 @@ export default function PortFolio() {
 															<ArrowDown className={`w-[20px] h-[20px] transition-transform ${openIndex === i ? "rotate-180" : ""}`} />
 														</button>
 													</div>
-													<div className={`${openIndex === i ? "max-h-[1000px] opacity-100" : "max-h-0 opacity-0"} overflow-hidden transition-all duration-500 ease-in-out`}>
+													<div
+														className={`${
+															openIndex === i ? "max-h-[1000px] delay-0 duration-700" : "max-h-0 duration-0"
+														}  overflow-hidden transition-[max-height_opacity] ease h-full`}>
 														<ul className="w-full">
-															<li className="text-white text-[18px] font-[400]">설명 : {data.contribution}</li>
+															<li className="text-white text-[18px] font-[400]">설명 : {data.description}</li>
 															<li className="text-white text-[18px] font-[400]">작업일 : {data.day}</li>
-															<li className="text-white text-[18px] font-[400]">작업페이지 : {data.description}</li>
+															<li className="text-white text-[18px] font-[400]">작업페이지 : {data.contribution}</li>
+															{data.site ? (
+																<li>
+																	<a className="text-[#d3d3d3] underline text-[16px] font-[400]" href={data.site}>
+																		홈페이지 방문하기
+																	</a>
+																</li>
+															) : null}
+
 															<li>
 																<div className="flex gap-x-2.5 mt-2.5">
 																	{data.Language.map((item) => {
@@ -236,7 +247,7 @@ export default function PortFolio() {
 						</div>
 					</div>
 				</section>
-				<section className="mt-[80px] pb-[80px] border-b-[0.5px] border-solid border-white">
+				<section className="mt-[80px] pb-[80px]">
 					<h1 className="content-title">CERTIFICATE</h1>
 					<div className="mt-8 flex gap-x-10 ">
 						<div className="w-[300px] flex-[0_0_auto]">
@@ -247,26 +258,8 @@ export default function PortFolio() {
 								과학기술정보통신부 <br />
 								2025.06
 							</div>
-							<div className="text-[18px] font-[300] text-white">2026 실기예정 자격증 취득 예정</div>
+							<div className="text-[18px] font-[300] text-white">2026 실기 자격증 취득 예정</div>
 						</div>
-					</div>
-				</section>
-				<section className="mt-[80px] pb-[80px] border-b-[0.5px] border-solid border-white">
-					<h1 className="content-title">PROJECT</h1>
-					<div className="mt-8 flex gap-x-10 ">
-						<div className="w-[300px] flex-[0_0_auto]">
-							<h2 className="content-title">정보처리 산업기사 (필기)</h2>
-						</div>
-						<div className="ml-[18px] flex-[1_1_100%] min-w-0"></div>
-					</div>
-				</section>
-				<section className="mt-[80px] pb-[80px] border-b-[0.5px] border-solid border-white">
-					<h1 className="content-title">CONTACT</h1>
-					<div className="mt-8 flex gap-x-10 ">
-						<div className="w-[300px] flex-[0_0_auto]">
-							<h2 className="content-title">정보처리 산업기사 (필기)</h2>
-						</div>
-						<div className="ml-[18px] flex-[1_1_100%] min-w-0"></div>
 					</div>
 				</section>
 			</div>

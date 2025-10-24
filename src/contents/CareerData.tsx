@@ -5,6 +5,7 @@ interface CareerType {
 	contribution: string;
 	day: string;
 	description: string;
+	site?: string;
 }
 
 const CareerData: CareerType[] = [
@@ -15,6 +16,7 @@ const CareerData: CareerType[] = [
 		contribution: "메인페이지 및 콘텐츠 페이지",
 		day: "2022.03",
 		description: "경기둘레길을 추천 및 설명해주는 반응형 웹사이트입니다.",
+		site: "https://ggtour.or.kr/dulegil/main.do",
 	},
 	{
 		projectName: "AIMS",
@@ -23,14 +25,15 @@ const CareerData: CareerType[] = [
 		contribution: "메인페이지/게시판/컨텐츠 페이지 퍼블리싱 작업 진행했습니다.",
 		day: "2022.04",
 		description: "aims 영문 반응형 웹사이트입니다.",
+		site: "https://aims.campusasiaprogram.kr/eng/",
 	},
 	{
 		projectName: "익스트레블",
 		img: ["/images/no_image.svg", "/images/no_image.svg", "/images/no_image.svg", "/images/no_image.svg"],
 		Language: ["html", "css", "javascript"],
-		contribution: "전체 페이지 퍼브리싱 작업 혼자 진행했습니다.",
+		contribution: "전체 퍼블리싱 작업을 혼자 진행했습니다.",
 		day: "2022.10",
-		description: "여행 플랫폼 반응형 웹사이트 입니다.",
+		description: "여행 플랫폼 홈페이지이며, 반응형 웹사이트 입니다.",
 	},
 ];
 
