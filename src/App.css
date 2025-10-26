@@ -66,6 +66,14 @@ h3.content-title {
 	}
 }
 
+h4.content-title {
+	font-size: 18px;
+	font-weight: 700;
+	color: #fff;
+	max-width: 64px;
+	width: 100%;
+}
+
 ol.list-decimal li::marker {
 	color: #ffffff;
 }
