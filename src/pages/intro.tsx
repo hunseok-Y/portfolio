@@ -20,7 +20,7 @@ export default function Intro() {
 
 	return (
 		<>
-			<div className="h-[100dvh] py-[120px] flex-[1_1_100%]">
+			<div className="h-[100dvh] pt-[120px] flex-[1_1_100%]">
 				<div className="flex flex-col h-full">
 					<h2 className={`${isRendered ? "rendered" : ""} underline-text`}>Front-end Developer</h2>
 					<Title title={title} />

@@ -2,7 +2,6 @@ import { createBrowserRouter } from "react-router-dom";
 import Layout from "./Layout";
 import PortFolio from "./pages/portFolio";
 import Project from "./pages/project";
-import Contact from "./pages/contact";
 
 export const router = createBrowserRouter([
 	{
@@ -17,10 +16,10 @@ export const router = createBrowserRouter([
 				path: "/project",
 				element: <Project />,
 			},
-			{
-				path: "/contact",
-				element: <Contact />,
-			},
+			// {
+			// 	path: "/contact",
+			// 	element: <Contact />,
+			// },
 		],
 	},
 ]);

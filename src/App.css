@@ -1,6 +1,8 @@
 @import "tailwindcss";
 @import "./assets/fonts.css";
 @import "swiper/css";
+@import "swiper/css/navigation";
+@import "swiper/css/pagination";
 
 :root {
 	--font-sans: "SUIT";
@@ -104,4 +106,16 @@ ul.dot li::before {
 	ul.dot li {
 		font-size: 14px;
 	}
+}
+
+/* eum Swiper pagination */
+.eum-pagination {
+	display: flex;
+	justify-content: center;
+	gap: 0 10px;
+	margin-top: 40px;
+}
+
+.eum-pagination .swiper-pagination-bullet {
+	background-color: #fff;
 }

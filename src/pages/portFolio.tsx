@@ -106,9 +106,9 @@ export default function PortFolio() {
 							<div className="flex gap-x-2.5 mt-2.5">
 								<div className="bg-white inline-flex items-center gap-x-1 px-2.5 py-1 rounded-[6px]">
 									<div className="w-[16px] h-[16px]">
-										<img src="/images/icon_mongdb.png" alt="" className="object-center object-contain w-full h-full" />
+										<img src="/images/icon_mongodb.png" alt="" className="object-center object-contain w-full h-full" />
 									</div>
-									<span className="font-[700]">MongDB</span>
+									<span className="font-[700]">MongoDB</span>
 								</div>
 							</div>
 						</div>

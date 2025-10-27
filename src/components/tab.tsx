@@ -14,9 +14,6 @@ export default function Tab() {
 					<button onClick={() => navigate("/project")} className={`text-[18px]  text-white hover:underline ${location == "/project" ? "font-[900]" : "font-[600]"}`}>
 						Project
 					</button>
-					<button onClick={() => navigate("/contact")} className={`text-[18px]  text-white hover:underline ${location == "/contact" ? "font-[900]" : "font-[600]"}`}>
-						Contact
-					</button>
 				</div>
 			</div>
 		</>
