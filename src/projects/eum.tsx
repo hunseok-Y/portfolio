@@ -91,7 +91,7 @@ export default function Eum() {
 					<li className="flex items-center gap-x-10 mt-1.5">
 						<div className="text-[18px] text-white max-w-[64px] w-full font-[700]">사이트</div>
 						<div className="flex items-center">
-							<a href="https://github.com/hunseok-Y/eum" className="bg-white inline-flex items-center gap-x-1 px-2 py-0.5 rounded-[6px]">
+							<a href="https://github.com/hunseok-Y/eum" target="_blank" className="bg-white inline-flex items-center gap-x-1 px-2 py-0.5 rounded-[6px]">
 								<div className="w-[14px] h-[14px]">
 									<img src="/images/icon_github.svg" alt="" className="object-center object-contain w-full h-full" />
 								</div>

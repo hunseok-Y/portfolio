@@ -10,6 +10,13 @@ export default function PortFolio() {
 	const [careerModal, setCareerModal] = useState(false);
 	const [openIndex, setOpenIndex] = useState<number | null>(null);
 
+	const handleCopy = (text: string) => {
+		navigator.clipboard
+			.writeText(text)
+			.then(() => alert("이메일이 복사 되었습니다."))
+			.catch(() => alert("복사 실패!"));
+	};
+
 	return (
 		<>
 			<div className="flex-[1_1_100%] min-w-0">
@@ -26,6 +33,38 @@ export default function PortFolio() {
 						<div className="flex flex-col gap-y-[2px] mt-2.5">
 							<span className="text-white">안녕하세요. 현재에 만족하지 않고 계속해서 전진해 나가는 프론트엔드 개발자 양훈석입니다.</span>
 							<span className="text-white">더 나은 사용자 경험을 만들기 위해 끊임없이 학습하고 도전합니다.</span>
+						</div>
+
+						<div className="mt-5">
+							<h2 className="content-title">CONTACT</h2>
+							<div className="inline-flex flex-col mt-1.5 gap-y-2">
+								<button className="text-white text-[18px] cursor-pointer" onClick={() => handleCopy("gnstjr5911@gmail.com")}>
+									Email. gnstjr5911@gmail.com
+								</button>
+								<a href="tel: 010-3260-8776" className="text-white text-[18px] flex-[0_1_auto]">
+									Phone. 010-3260-8776
+								</a>
+							</div>
+							<div className="flex gap-x-2.5 mt-10">
+								<a
+									href="https://github.com/hunseok-Y"
+									target="_blank"
+									className=" border text-white border-white hover:text-black hover:border-black hover:bg-white inline-flex transition-all items-center gap-x-1 px-2.5 py-1 rounded-[6px]">
+									<div className="w-[16px] h-[16px]">
+										<img src="/images/icon_github.svg" alt="" className="object-center object-contain w-full h-full bg-white rounded-[50%]" />
+									</div>
+									<span className="font-[700]">GitHub</span>
+								</a>
+								<a
+									href="https://meowing-wood-e89.notion.site/SW-274ef2fed5bb807a83c5f6135acaa12b?source=copy_link"
+									target="_blank"
+									className="border text-white border-white hover:text-black hover:border-black hover:bg-white inline-flex transition-all items-center gap-x-1 px-2.5 py-1 rounded-[6px]">
+									<div className="w-[16px] h-[16px]">
+										<img src="/images/icon_notion.png" alt="" className="object-center object-contain w-full h-full" />
+									</div>
+									<span className="font-[700]">Notion</span>
+								</a>
+							</div>
 						</div>
 					</div>
 				</section>
