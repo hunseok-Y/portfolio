@@ -42,20 +42,20 @@ export function CareerModal({ careerModal, setCareerModal }: { careerModal: bool
 					<div>
 						<h2 className="content-title">사용언어</h2>
 						<div className="flex gap-x-2.5 mt-3.5">
-							<div className="bg-white inline-flex items-center gap-x-1 px-2.5 py-1 rounded-[6px]">
-								<div className="w-[16px] h-[16px]">
+							<div className="bg-white inline-flex items-center gap-x-1 px-2.5 py-1 rounded-[6px] md:text-[16px] text-[14px]">
+								<div className="md:w-[16px] md:h-[16px] w-[14px] h-[14px]">
 									<img src="/images/icon_html.png" alt="" className="object-center object-contain w-full h-full" />
 								</div>
 								<span className="font-[700]">HTML</span>
 							</div>
-							<div className="bg-white inline-flex items-center gap-x-1 px-2.5 py-1 rounded-[6px]">
-								<div className="w-[16px] h-[16px]">
+							<div className="bg-white inline-flex items-center gap-x-1 px-2.5 py-1 rounded-[6px] md:text-[16px] text-[14px]">
+								<div className="md:w-[16px] md:h-[16px] w-[14px] h-[14px]">
 									<img src="/images/icon_css.svg" alt="" className="object-center object-contain w-full h-full" />
 								</div>
 								<span className="font-[700]">CSS</span>
 							</div>
-							<div className="bg-white inline-flex items-center gap-x-1 px-2.5 py-1 rounded-[6px]">
-								<div className="w-[16px] h-[16px]">
+							<div className="bg-white inline-flex items-center gap-x-1 px-2.5 py-1 rounded-[6px] md:text-[16px] text-[14px]">
+								<div className="md:w-[16px] md:h-[16px] w-[14px] h-[14px]">
 									<img src="/images/icon_javascript.png" alt="" className="object-center object-contain w-full h-full" />
 								</div>
 								<span className="font-[700]">JavaScript</span>

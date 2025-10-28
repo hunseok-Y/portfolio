@@ -20,15 +20,15 @@ export default function PortFolio() {
 	return (
 		<>
 			<div className="flex-[1_1_100%] min-w-0">
-				<section className="flex gap-x-5 pb-[80px] border-b-[0.5px] border-solid border-white">
-					<div className="w-[146px] h-[146px]">
+				<section className="md:flex block gap-x-5 md:pb-[80px] pb-[40px] border-b-[0.5px] border-solid border-white">
+					<div className="md:w-[146px] md:h-[146px] w-[110px] h-[110px] flex-[0_0_auto]">
 						<img src="/images/profile_img.jpg" className="w-full h-full object-top object-contain rounded-[50%] overflow-hidden bg-white" alt="" />
 					</div>
-					<div>
-						<h1 className="text-[32px] font-[700] text-white">양훈석</h1>
-						<h2 className="text-white text-[20px] mt-2.5 font-[600]">1995.04.30</h2>
+					<div className="mt-5 lg:mt-0">
+						<h1 className="content-title">양훈석</h1>
+						<h2 className="text-white text-[20px] mt-1.5 lg:mt-2.5 font-[600]">1995.04.30</h2>
 						<div className="mt-2.5">
-							<span className="p-[2px_10px] font-[500] bg-white rounded-[4px]">Frontend-Developer</span>
+							<span className="p-[2px_10px] font-[500] lg:text-[16px] text-[14px] bg-white rounded-[4px]">Frontend-Developer</span>
 						</div>
 						<div className="flex flex-col gap-y-[2px] mt-2.5">
 							<span className="text-white">안녕하세요. 현재에 만족하지 않고 계속해서 전진해 나가는 프론트엔드 개발자 양훈석입니다.</span>
@@ -50,7 +50,7 @@ export default function PortFolio() {
 									href="https://github.com/hunseok-Y"
 									target="_blank"
 									className=" border text-white border-white hover:text-black hover:border-black hover:bg-white inline-flex transition-all items-center gap-x-1 px-2.5 py-1 rounded-[6px]">
-									<div className="w-[16px] h-[16px]">
+									<div className="md:w-[16px] md:h-[16px] w-[14px] h-[14px]">
 										<img src="/images/icon_github.svg" alt="" className="object-center object-contain w-full h-full bg-white rounded-[50%]" />
 									</div>
 									<span className="font-[700]">GitHub</span>
@@ -59,7 +59,7 @@ export default function PortFolio() {
 									href="https://meowing-wood-e89.notion.site/SW-274ef2fed5bb807a83c5f6135acaa12b?source=copy_link"
 									target="_blank"
 									className="border text-white border-white hover:text-black hover:border-black hover:bg-white inline-flex transition-all items-center gap-x-1 px-2.5 py-1 rounded-[6px]">
-									<div className="w-[16px] h-[16px]">
+									<div className="md:w-[16px] md:h-[16px] w-[14px] h-[14px]">
 										<img src="/images/icon_notion.png" alt="" className="object-center object-contain w-full h-full" />
 									</div>
 									<span className="font-[700]">Notion</span>
@@ -68,20 +68,20 @@ export default function PortFolio() {
 						</div>
 					</div>
 				</section>
-				<section className="mt-[80px] pb-[80px] border-b-[0.5px] border-solid border-white">
+				<section className="md:mt-[80px] mt-[40px] pb-[40px] md:pb-[80px] border-b-[0.5px] border-solid border-white">
 					<h1 className="content-title">SKILLS</h1>
-					<div className="mt-8">
+					<div className="lg:mt-8 mt-4">
 						<div>
 							<h2 className="content-title">Language</h2>
 							<div className="flex gap-x-2.5 mt-2.5">
-								<div className="bg-white inline-flex items-center gap-x-1 px-2.5 py-1 rounded-[6px]">
-									<div className="w-[16px] h-[16px]">
+								<div className="bg-white inline-flex items-center gap-x-1 px-2.5 py-1 rounded-[6px] md:text-[16px] text-[14px]">
+									<div className="md:w-[16px] md:h-[16px] w-[14px] h-[14px]">
 										<img src="/images/icon_javascript.png" alt="" className="object-center object-contain w-full h-full" />
 									</div>
 									<span className="font-[700]">JavaScript</span>
 								</div>
-								<div className="bg-white inline-flex items-center gap-x-1 px-2.5 py-1 rounded-[6px]">
-									<div className="w-[16px] h-[16px]">
+								<div className="bg-white inline-flex items-center gap-x-1 px-2.5 py-1 rounded-[6px] md:text-[16px] text-[14px]">
+									<div className="md:w-[16px] md:h-[16px] w-[14px] h-[14px]">
 										<img src="/images/icon_typescript.png" alt="" className="object-center object-contain w-full h-full" />
 									</div>
 									<span className="font-[700]">TypeScript</span>
@@ -91,20 +91,20 @@ export default function PortFolio() {
 						<div className="mt-5">
 							<h2 className="content-title">Framework / Library</h2>
 							<div className="flex gap-x-2.5 mt-2.5">
-								<div className="bg-white inline-flex items-center gap-x-1 px-2.5 py-1 rounded-[6px]">
-									<div className="w-[16px] h-[16px]">
+								<div className="bg-white inline-flex items-center gap-x-1 px-2.5 py-1 rounded-[6px] md:text-[16px] text-[14px]">
+									<div className="md:w-[16px] md:h-[16px] w-[14px] h-[14px]">
 										<img src="/images/icon_react.png" alt="" className="object-center object-contain w-full h-full" />
 									</div>
 									<span className="font-[700]">React</span>
 								</div>
-								<div className="bg-white inline-flex items-center gap-x-1 px-2.5 py-1 rounded-[6px]">
-									<div className="w-[16px] h-[16px]">
+								<div className="bg-white inline-flex items-center gap-x-1 px-2.5 py-1 rounded-[6px] md:text-[16px] text-[14px]">
+									<div className="md:w-[16px] md:h-[16px] w-[14px] h-[14px]">
 										<img src="/images/icon_next.svg" alt="" className="object-center object-contain w-full h-full" />
 									</div>
 									<span className="font-[700]">Next.js</span>
 								</div>
-								<div className="bg-white inline-flex items-center gap-x-1 px-2.5 py-1 rounded-[6px]">
-									<div className="w-[16px] h-[16px]">
+								<div className="bg-white inline-flex items-center gap-x-1 px-2.5 py-1 rounded-[6px] md:text-[16px] text-[14px]">
+									<div className="md:w-[16px] md:h-[16px] w-[14px] h-[14px]">
 										<img src="/images/icon_vue.png" alt="" className="object-center object-contain w-full h-full" />
 									</div>
 									<span className="font-[700]">Vue</span>
@@ -113,27 +113,27 @@ export default function PortFolio() {
 						</div>
 						<div className="mt-5">
 							<h2 className="content-title">MarkUp / Styling</h2>
-							<div className="flex gap-x-2.5 mt-2.5">
-								<div className="bg-white inline-flex items-center gap-x-1 px-2.5 py-1 rounded-[6px]">
-									<div className="w-[16px] h-[16px]">
+							<div className="flex gap-x-2.5 gap-y-2.5 mt-2.5 flex-wrap">
+								<div className="bg-white inline-flex items-center gap-x-1 px-2.5 py-1 rounded-[6px] md:text-[16px] text-[14px]">
+									<div className="md:w-[16px] md:h-[16px] w-[14px] h-[14px]">
 										<img src="/images/icon_html.png" alt="" className="object-center object-contain w-full h-full" />
 									</div>
 									<span className="font-[700]">HTML</span>
 								</div>
-								<div className="bg-white inline-flex items-center gap-x-1 px-2.5 py-1 rounded-[6px]">
-									<div className="w-[16px] h-[16px]">
+								<div className="bg-white inline-flex items-center gap-x-1 px-2.5 py-1 rounded-[6px] md:text-[16px] text-[14px]">
+									<div className="md:w-[16px] md:h-[16px] w-[14px] h-[14px]">
 										<img src="/images/icon_css.png" alt="" className="object-center object-contain w-full h-full" />
 									</div>
 									<span className="font-[700]">CSS</span>
 								</div>
-								<div className="bg-white inline-flex items-center gap-x-1 px-2.5 py-1 rounded-[6px]">
-									<div className="w-[16px] h-[16px]">
+								<div className="bg-white inline-flex items-center gap-x-1 px-2.5 py-1 rounded-[6px] md:text-[16px] text-[14px]">
+									<div className="md:w-[16px] md:h-[16px] w-[14px] h-[14px]">
 										<img src="/images/icon_scss.png" alt="" className="object-center object-contain w-full h-full" />
 									</div>
 									<span className="font-[700]">SCSS</span>
 								</div>
-								<div className="bg-white inline-flex items-center gap-x-1 px-2.5 py-1 rounded-[6px]">
-									<div className="w-[16px] h-[16px]">
+								<div className="bg-white inline-flex items-center gap-x-1 px-2.5 py-1 rounded-[6px] md:text-[16px] text-[14px]">
+									<div className="md:w-[16px] md:h-[16px] w-[14px] h-[14px]">
 										<img src="/images/icon_tailwind.png" alt="" className="object-center object-contain w-full h-full" />
 									</div>
 									<span className="font-[700]">Tailwind</span>
@@ -143,8 +143,8 @@ export default function PortFolio() {
 						<div className="mt-5">
 							<h2 className="content-title">Database</h2>
 							<div className="flex gap-x-2.5 mt-2.5">
-								<div className="bg-white inline-flex items-center gap-x-1 px-2.5 py-1 rounded-[6px]">
-									<div className="w-[16px] h-[16px]">
+								<div className="bg-white inline-flex items-center gap-x-1 px-2.5 py-1 rounded-[6px] md:text-[16px] text-[14px]">
+									<div className="md:w-[16px] md:h-[16px] w-[14px] h-[14px]">
 										<img src="/images/icon_mongodb.png" alt="" className="object-center object-contain w-full h-full" />
 									</div>
 									<span className="font-[700]">MongoDB</span>
@@ -154,14 +154,14 @@ export default function PortFolio() {
 						<div className="mt-5">
 							<h2 className="content-title">Tool</h2>
 							<div className="flex gap-x-2.5 mt-2.5">
-								<div className="bg-white inline-flex items-center gap-x-1 px-2.5 py-1 rounded-[6px]">
-									<div className="w-[16px] h-[16px]">
+								<div className="bg-white inline-flex items-center gap-x-1 px-2.5 py-1 rounded-[6px] md:text-[16px] text-[14px]">
+									<div className="md:w-[16px] md:h-[16px] w-[14px] h-[14px]">
 										<img src="/images/icon_github.svg" alt="" className="object-center object-contain w-full h-full" />
 									</div>
 									<span className="font-[700]">GitHub</span>
 								</div>
-								<div className="bg-white inline-flex items-center gap-x-1 px-2.5 py-1 rounded-[6px]">
-									<div className="w-[16px] h-[16px]">
+								<div className="bg-white inline-flex items-center gap-x-1 px-2.5 py-1 rounded-[6px] md:text-[16px] text-[14px]">
+									<div className="md:w-[16px] md:h-[16px] w-[14px] h-[14px]">
 										<img src="/images/icon_notion.png" alt="" className="object-center object-contain w-full h-full" />
 									</div>
 									<span className="font-[700]">Notion</span>
@@ -170,10 +170,10 @@ export default function PortFolio() {
 						</div>
 					</div>
 				</section>
-				<section className="mt-[80px] pb-[80px] border-b-[0.5px] border-solid border-white">
+				<section className="md:mt-[80px] mt-[40px] pb-[40px] md:pb-[80px] border-b-[0.5px] border-solid border-white">
 					<h1 className="content-title">CAREER(총 3년 3개월)</h1>
-					<div className="mt-8 flex gap-x-10 ">
-						<div className="w-[150px] flex-[0_0_auto]">
+					<div className="lg:mt-8 mt-4 lg:flex lg:gap-x-10 block">
+						<div className="lg:w-[150px] flex-[0_0_auto]">
 							<h2 className="content-title">
 								어니언 <br />
 								커뮤니케이션즈
@@ -181,7 +181,7 @@ export default function PortFolio() {
 							<span className="text-white font-[200]">(웹퍼블리셔 / 대리)</span>
 							<h3 className="content-title mt-5">2022년 1월 10일 ~ 2025년 4월 1일</h3>
 						</div>
-						<div className="ml-[18px] flex-[1_1_100%] min-w-0">
+						<div className="lg:ml-[18px] md:ml-[20px] ml-[16px] lg:mt-0 mt-10 flex-[1_1_100%] min-w-0">
 							<ol className="list-decimal">
 								<li className="text-[20px] font-[700]">
 									<h3 className="content-title ">커뮤니케이션 및 유지보수</h3>
@@ -201,7 +201,7 @@ export default function PortFolio() {
 										<li>flex, grid, aspect-ratio 같은 새로운 스타일 코드들도 적극 활용해서 자유자제 사용할 수 있도록 했습니다. </li>
 									</ul>
 									<button
-										className="ml-4 mt-2.5 py-1.5 px-2 text-[16px] leading-[1] rounded-[6px] border border-white text-white transition-all hover:bg-white hover:border-white hover:text-[#1b1b1e]"
+										className="ml-4 mt-2.5 py-1.5 px-2 md:text-[16px] text-[12px] leading-[1] rounded-[6px] border border-white text-white transition-all hover:bg-white hover:border-white hover:text-[#1b1b1e]"
 										onClick={() => setStyleModal(!styleModal)}>
 										더 알아보기
 									</button>
@@ -225,7 +225,7 @@ export default function PortFolio() {
 														onClick={() => {
 															setOpenIndex(openIndex === i ? null : i);
 														}}>
-														<span className="text-white text-[18px]">{data.projectName}</span>
+														<span className="text-white md:text-[18px] text-[16px]">{data.projectName}</span>
 														<button className="text-white absolute translate-y-[-50%] top-[50%] right-0">
 															<ArrowDown className={`w-[20px] h-[20px] transition-transform ${openIndex === i ? "rotate-180" : ""}`} />
 														</button>
@@ -235,12 +235,12 @@ export default function PortFolio() {
 															openIndex === i ? "max-h-[1000px] delay-0 duration-700" : "max-h-0 duration-0"
 														}  overflow-hidden transition-[max-height_opacity] ease h-full`}>
 														<ul className="w-full">
-															<li className="text-white text-[18px] font-[400]">설명 : {data.description}</li>
-															<li className="text-white text-[18px] font-[400]">작업일 : {data.day}</li>
-															<li className="text-white text-[18px] font-[400]">작업페이지 : {data.contribution}</li>
+															<li className="text-white md:text-[18px] text-[14px] font-[400]">설명 : {data.description}</li>
+															<li className="text-white md:text-[18px] md:mt-0 mt-1 text-[14px] font-[400]">작업일 : {data.day}</li>
+															<li className="text-white md:text-[18px] md:mt-0 mt-1 text-[14px] font-[400]">작업페이지 : {data.contribution}</li>
 															{data.site ? (
 																<li>
-																	<a className="text-[#fff] hover:text-[#3d72f9] underline text-[16px] font-[400]" href={data.site}>
+																	<a className="text-[#fff] hover:text-[#3d72f9] underline md:text-[16px] text-[12px] font-[400]" href={data.site}>
 																		홈페이지 방문하기
 																	</a>
 																</li>
@@ -254,7 +254,7 @@ export default function PortFolio() {
 																				<div className="w-[12px] h-[12px]">
 																					<img src={`/images/icon_${item}.png`} alt="" className="object-center object-contain w-full h-full" />
 																				</div>
-																				<span className="font-[700] text-[14px]">{item.toUpperCase()}</span>
+																				<span className="font-[700] md:text-[14px] text-[12px]">{item.toUpperCase()}</span>
 																			</div>
 																		);
 																	})}
@@ -262,12 +262,19 @@ export default function PortFolio() {
 															</li>
 															<li>
 																<div className="mt-5">
-																	<Swiper spaceBetween={20} slidesPerView={2}>
+																	<Swiper
+																		spaceBetween={20}
+																		slidesPerView={1}
+																		breakpoints={{
+																			530: {
+																				slidesPerView: 2,
+																			},
+																		}}>
 																		{data.img
 																			? data.img.map((img) => {
 																					return (
 																						<SwiperSlide>
-																							<div className="h-[260px] overflow-hidden rounded-[10px]">
+																							<div className="md:h-[260px] h-[200px] overflow-hidden rounded-[10px]">
 																								<img className="w-full h-full object-top object-cover" src={img} alt="" />
 																							</div>
 																						</SwiperSlide>
@@ -288,18 +295,18 @@ export default function PortFolio() {
 						</div>
 					</div>
 				</section>
-				<section className="mt-[80px] pb-[80px]">
+				<section className="md:mt-[80px] md:pb-[80px] mt-[40px]">
 					<h1 className="content-title">CERTIFICATE</h1>
-					<div className="mt-8 flex gap-x-10 ">
-						<div className="w-[300px] flex-[0_0_auto]">
+					<div className="lg:mt-8 mt-4 lg:flex block gap-x-10 ">
+						<div className="md:w-[300px] w-auto flex-[0_0_auto]">
 							<h2 className="content-title">정보처리 산업기사 (필기)</h2>
 						</div>
-						<div className="ml-[18px] flex-[1_1_100%] min-w-0">
-							<div className="text-[18px] font-[300] text-white">
+						<div className="lg:ml-[18px] lg:mt-0 mt-1.5 flex-[1_1_100%] min-w-0">
+							<div className="md:text-[18px] text-[14px] font-[300] text-white">
 								과학기술정보통신부 <br />
 								2025.06
 							</div>
-							<div className="text-[18px] font-[300] text-white">2026 실기 자격증 취득 예정</div>
+							<div className="md:text-[18px] text-[14px] font-[300] text-white">2026 실기 자격증 취득 예정</div>
 						</div>
 					</div>
 				</section>

@@ -110,8 +110,8 @@ export default function Newsly() {
 							<h4 className="content-title">1. 무한스크롤 데이터 중복으로 불러오기</h4>
 							<div className="mt-2.5">
 								<p className="text-white text-[16px] font-[300]">
-									News API에서는 page : number을 내려준다 번호 별로 페이지를 얼마나 가져올지도 정할 수 있는데 스크롤을 내릴 때 아직 이미 나온 데이터들이 중복으로 출력이 되는 문제를
-									발견했습니다. 해결방법으로 데이터를 가져왔는지 안 가져왔는지 알려줄 검문소 역활의 코드를 넣어서 데이터를 가져왔다면 그냥 지나가다록 하는 코드를 넣어 개선하였습니다.
+									News API에서 page 번호를 기준으로 데이터를 요청할 수 있는데, 스크롤을 내릴 때 이미 로드된 데이터가 중복으로 출력되는 문제가 발생했습니다. 이 문제를 해결하기 위해
+									데이터 요청 상태를 확인하는 검증 로직(검문소 역할) 을 추가하여, 이미 가져온 데이터일 경우 요청을 건너뛰도록 개선했습니다.
 								</p>
 							</div>
 						</li>
@@ -128,10 +128,9 @@ export default function Newsly() {
 							<h4 className="content-title">3. vercel 북마크 DELETE 기능 오류</h4>
 							<div className="mt-2.5">
 								<p className="text-white text-[16px] font-[300]">
-									method DELETE요청을 할 때 body.id를 넘겨서 비교하도록 지정했다. Local에서는 아무 문제가 되지 않았지만 vercel에 build시 기능이 작동하지 않았다. 그래서 알아본 경과
-									Local은 Node.js가 오류라 생각하지말고 그냥 넘어가기 때문에 기능상 문제가 없지만 vercel은 엄격하기 때문에 body.id로 받았을 때 의미 없다고 간주하기 때문에 이런 문제가
-									발생한다는걸 알았다. DELETE 요청 할 때 body.id로 넘기는게 아니라 query parameter로 data.id로 넘겨서 api 서버에서 text를 url로 변경 후 id를 추출해서 직접 지정하는
-									방법으로 수정하였다.
+									DELETE 메서드 요청 시 body.id를 전달해 비교하도록 설정했지만, 로컬 환경에서는 정상 작동하던 기능이 Vercel 배포 후 동작하지 않는 문제가 발생했습니다. 조사 결과,
+									로컬의 Node.js 환경은 이를 오류로 간주하지 않고 넘어가지만, Vercel은 보다 엄격하게 검증하기 때문에 DELETE 요청 시 body 데이터를 유효하지 않은 값으로 처리한다는 점을
+									확인했습니다. 이에 따라, body.id 대신 쿼리 파라미터(data.id)로 전달하고, API 서버에서 URL에서 id를 추출해 직접 처리하는 방식으로 수정하여 문제를 해결했습니다.
 								</p>
 							</div>
 						</li>
