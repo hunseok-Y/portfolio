@@ -209,7 +209,7 @@ export default function PortFolio() {
 								<li className="text-[20px] font-[500] mt-5">
 									<h3 className="content-title ">웹접근성</h3>
 									<ul className="dot">
-										<li>웹접근성에 대해 항상 고민하고 생각list-decimal pl-5하며 코드를 작성하는 방법을 배웠습니다.</li>
+										<li>웹접근성에 대해 항상 고민하고 생각하며 코드를 작성하는 방법을 배웠습니다.</li>
 										<li>WebWatch에 심사를 받아보는 경험을 했습니다.</li>
 										<li>WebWatch에서 제안하는 수정사항을 수정 후 재심사를 받고 통과한 경험이 있습니다.</li>
 									</ul>
