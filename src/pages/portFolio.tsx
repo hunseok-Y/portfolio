@@ -186,19 +186,16 @@ export default function PortFolio() {
 								<li className="text-[20px] font-[700]">
 									<h3 className="content-title ">커뮤니케이션 및 유지보수</h3>
 									<ul className="dot">
-										<li>기획&디자인&개발팀과 커뮤니케이션을 통해 계약 업체의 요구사항의 맞게 유지보수를 진행했습니다.</li>
-										<li>프로젝트 초기 단계부터 명확한 기능 구현 방향성을 제시하고 적합한 라이브러리를 선별·제안하여, 효율적인 협업과 소통을 실현합니다.</li>
+										<li>기획, 디자인, 개발팀과 긴밀히 소통하며 클라이언트 요구사항을 반영한 유지보수를 수행했습니다.</li>
+										<li>프로젝트 초기부터 구현 방향을 명확히 하고 적합한 라이브러리를 선별·제안하여 효율적인 협업 환경을 만들었습니다.</li>
 									</ul>
 								</li>
 								<li className="text-[20px] font-[700] mt-5">
 									<h3 className="content-title ">새로운 CSS 기술 도입 및 코드개선</h3>
 									<ul className="dot">
-										<li>기존에 CSS만 사용해서 구현했다면 SCSS를 도입해서 더 편리한 작업을 할 수 있도록 개선하였습니다.</li>
-										<li>
-											SCSS에 있는 mixin을 사용해 기존에 사용하는 2가지 디바이스 스타일을 사용할 수 있게 하고 더불어 custom을 가능하게 하여 다양한 디바이스에서 스타일을 적용 할 수
-											있도록 하였습니다.
-										</li>
-										<li>flex, grid, aspect-ratio 같은 새로운 스타일 코드들도 적극 활용해서 자유자제 사용할 수 있도록 했습니다. </li>
+										<li>SCSS를 도입하여 기존 CSS 작업 방식을 개선하고 생산성을 높였습니다.</li>
+										<li>mixin을 사용해 기존 2가지 디바이스 스타일을 간편하게 적용하고, 커스텀 옵션을 추가하여 다양한 화면 크기에 유연하게 대응했습니다.</li>
+										<li>최신 CSS 속성(flex, grid, aspect-ratio 등)을 적극 도입하여 다양한 레이아웃을 유연하게 구현했습니다.</li>
 									</ul>
 									<button
 										className="ml-4 mt-2.5 py-1.5 px-2 md:text-[16px] text-[12px] leading-[1] rounded-[6px] border border-white text-white transition-all hover:bg-white hover:border-white hover:text-[#1b1b1e]"
@@ -209,9 +206,9 @@ export default function PortFolio() {
 								<li className="text-[20px] font-[500] mt-5">
 									<h3 className="content-title ">웹접근성</h3>
 									<ul className="dot">
-										<li>웹접근성에 대해 항상 고민하고 생각하며 코드를 작성하는 방법을 배웠습니다.</li>
-										<li>WebWatch에 심사를 받아보는 경험을 했습니다.</li>
-										<li>WebWatch에서 제안하는 수정사항을 수정 후 재심사를 받고 통과한 경험이 있습니다.</li>
+										<li>웹접근성 기준을 준수하며 모든 사용자를 고려한 코드를 작성하는 방법을 익혔습니다.</li>
+										<li>WebWatch를 통해 웹접근성 품질 검수를 받아본 경험이 있습니다.</li>
+										<li>심사 결과 나온 개선사항을 반영하고 재심사를 통과하며 웹접근성 인증을 받았습니다.</li>
 									</ul>
 								</li>
 								<li className="text-[20px] font-[500] mt-5">
