@@ -77,7 +77,7 @@ export default function Eum() {
 						<div className="md:text-[16px] text-[14px] text-white font-[400]">6명 (기획 1명, 디자이너 1명, 프론트엔드 2명, 백엔드 2명)</div>
 					</li>
 					<li className="flex items-center md:gap-x-10 gap-x-5 md:mt-1.5 mt-2">
-						<div className="md:text-[18px] text-[14px] text-white md:max-w-[64px] max-w-[50px] w-full font-[700]">역활</div>
+						<div className="md:text-[18px] text-[14px] text-white md:max-w-[64px] max-w-[50px] w-full font-[700]">역할</div>
 						<div className="md:text-[16px] text-[14px] text-white font-[400]">기획, 프론트엔드</div>
 					</li>
 					<li className="flex items-center md:gap-x-10 gap-x-5 md:mt-1.5 mt-2">
@@ -114,15 +114,12 @@ export default function Eum() {
 					</p>
 					<br />
 					<p className="text-white leading-[1.4] font-[300] md:text-[16px] text-[14px]">
-						취미나 기술을 배우고싶지만 가격이 너무 부담되고 비싼 레슨비용을 부담하더라도 수업의 퀄리티가 마음에 들지 않는 2030세대 / 은퇴 후 제2의 직업을 원하는 시니어
-						<br />
-						<br />
-						이음은 2030세대의 가격적인 부담과 시니어가 은퇴 후 부업을 하고싶다는 니즈를 생각하면서 나오게 되었습니다. 은퇴 전 본업을 살려 경력과 기술을 저렴한 가격의 제공함으로써
-						2030세대는 저렴한 가격에 배우고싶던 취미와 기술 등을 배울 수 있으며, 시니어분들은 은퇴 후에도 본업의 경력을 살려 수입을 얻을 수 있도록 매칭해주는 플랫폼입니다.
+						'이음'은 두 가지 문제에서 출발했습니다. 배우고 싶어도 비용이 부담되는 2030세대, 그리고 은퇴 후에도 자신의 전문성을 나누고 싶은 시니어. 이 플랫폼은 시니어가 평생 쌓은 경력을
+						살려 저렴하게 멘토링을 제공하고, 2030세대는 합리적인 가격에 실무 경험이 풍부한 전문가에게 배울 수 있도록 연결합니다."
 					</p>
 				</div>
 				<div className="md:mt-10 mt-5">
-					<h2 className="content-title md:mb-2.5 mb-1.5">기여 역활</h2>
+					<h2 className="content-title md:mb-2.5 mb-1.5">기여 역할</h2>
 					<ul className="dot">
 						<li>React Router Data Mode로 세팅</li>
 						<li>TailWind 기본세팅</li>

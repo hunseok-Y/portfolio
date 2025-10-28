@@ -53,7 +53,7 @@ export default function Newsly() {
 						<div className="md:text-[16px] text-[14px] text-white font-[400]">1명</div>
 					</li>
 					<li className="flex items-center md:gap-x-10 gap-x-5 md:mt-1.5 mt-2">
-						<div className="md:text-[18px] text-[16px] text-white md:max-w-[64px] max-w-[56px] w-full font-[700] ">역활</div>
+						<div className="md:text-[18px] text-[16px] text-white md:max-w-[64px] max-w-[56px] w-full font-[700] ">역할</div>
 						<div className="md:text-[16px] text-[14px] text-white font-[400]">기획, 디자인, 프론트엔드, 백엔드</div>
 					</li>
 					<li className="flex items-center md:gap-x-10 gap-x-5 md:mt-1.5 mt-2">
