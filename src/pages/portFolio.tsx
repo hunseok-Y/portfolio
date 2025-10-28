@@ -89,7 +89,7 @@ export default function PortFolio() {
 								</div>
 								<div className="bg-white inline-flex items-center gap-x-1 px-2.5 py-1 rounded-[6px]">
 									<div className="w-[16px] h-[16px]">
-										<img src="/images/icon_scss.svg" alt="" className="object-center object-contain w-full h-full" />
+										<img src="/images/icon_scss.png" alt="" className="object-center object-contain w-full h-full" />
 									</div>
 									<span className="font-[700]">SCSS</span>
 								</div>
@@ -170,14 +170,14 @@ export default function PortFolio() {
 								<li className="text-[20px] font-[500] mt-5">
 									<h3 className="content-title ">웹접근성</h3>
 									<ul className="dot">
-										<li>웹접근성에 대해 항상 고민하고 생각하며 코드를 작성하는 방법을 배웠습니다.</li>
+										<li>웹접근성에 대해 항상 고민하고 생각list-decimal pl-5하며 코드를 작성하는 방법을 배웠습니다.</li>
 										<li>WebWatch에 심사를 받아보는 경험을 했습니다.</li>
 										<li>WebWatch에서 제안하는 수정사항을 수정 후 재심사를 받고 통과한 경험이 있습니다.</li>
 									</ul>
 								</li>
 								<li className="text-[20px] font-[500] mt-5">
 									<h3 className="content-title ">작업한 프로젝트</h3>
-									<ol className="list-decimal pl-5">
+									<ol className="list-decimal pl-8">
 										{CareerData.map((data, i) => {
 											return (
 												<li key={i}>
@@ -201,7 +201,7 @@ export default function PortFolio() {
 															<li className="text-white text-[18px] font-[400]">작업페이지 : {data.contribution}</li>
 															{data.site ? (
 																<li>
-																	<a className="text-[#d3d3d3] underline text-[16px] font-[400]" href={data.site}>
+																	<a className="text-[#fff] hover:text-[#3d72f9] underline text-[16px] font-[400]" href={data.site}>
 																		홈페이지 방문하기
 																	</a>
 																</li>
@@ -224,15 +224,17 @@ export default function PortFolio() {
 															<li>
 																<div className="mt-5">
 																	<Swiper spaceBetween={20} slidesPerView={2}>
-																		{data.img.map((img) => {
-																			return (
-																				<SwiperSlide>
-																					<div className="h-[260px] overflow-hidden rounded-[10px]">
-																						<img className="w-full h-full object-top object-cover" src={img} alt="" />
-																					</div>
-																				</SwiperSlide>
-																			);
-																		})}
+																		{data.img
+																			? data.img.map((img) => {
+																					return (
+																						<SwiperSlide>
+																							<div className="h-[260px] overflow-hidden rounded-[10px]">
+																								<img className="w-full h-full object-top object-cover" src={img} alt="" />
+																							</div>
+																						</SwiperSlide>
+																					);
+																			  })
+																			: null}
 																	</Swiper>
 																</div>
 															</li>

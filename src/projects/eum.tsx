@@ -34,7 +34,7 @@ export default function Eum() {
 			<div className="py-10 border-b-[0.5px] border-white">
 				<ul>
 					<li className="flex items-center gap-x-10">
-						<h4 className="content-title">SKILLS</h4>
+						<div className="text-[18px] text-white max-w-[64px] w-full font-[700]">SKILLS</div>
 						<div className="flex gap-x-2.5">
 							<div className="bg-white inline-flex items-center gap-x-1 px-2 py-0.5 rounded-[6px]">
 								<div className="w-[14px] h-[14px]">
@@ -69,27 +69,27 @@ export default function Eum() {
 						</div>
 					</li>
 					<li className="flex items-center gap-x-10 mt-1.5">
-						<h4 className="content-title">개발기간</h4>
+						<div className="text-[18px] text-white max-w-[64px] w-full font-[700]">개발기간</div>
 						<div className="text-[16px] text-white font-[400]">2025. 06.28 ~ 2025. 08. 23</div>
 					</li>
 					<li className="flex items-center gap-x-10 mt-1.5">
-						<h4 className="content-title">참여인원</h4>
+						<div className="text-[18px] text-white max-w-[64px] w-full font-[700]">참여인원</div>
 						<div className="text-[16px] text-white font-[400]">6명 (기획 1명, 디자이너 1명, 프론트엔드 2명, 백엔드 2명)</div>
 					</li>
 					<li className="flex items-center gap-x-10 mt-1.5">
-						<h4 className="content-title">역활</h4>
+						<div className="text-[18px] text-white max-w-[64px] w-full font-[700]">역활</div>
 						<div className="text-[16px] text-white font-[400]">기획, 프론트엔드</div>
 					</li>
 					<li className="flex items-center gap-x-10 mt-1.5">
-						<h4 className="content-title">기여도</h4>
+						<div className="text-[18px] text-white max-w-[64px] w-full font-[700]">기여도</div>
 						<div className="text-[16px] text-white font-[400]">3/5</div>
 					</li>
 					<li className="flex items-center gap-x-10 mt-1.5">
-						<h4 className="content-title">카테고리</h4>
+						<div className="text-[18px] text-white max-w-[64px] w-full font-[700]">카테고리</div>
 						<div className="text-[16px] text-white font-[400]">WEB</div>
 					</li>
 					<li className="flex items-center gap-x-10 mt-1.5">
-						<h4 className="content-title">사이트</h4>
+						<div className="text-[18px] text-white max-w-[64px] w-full font-[700]">사이트</div>
 						<div className="flex items-center">
 							<a href="https://github.com/hunseok-Y/eum" className="bg-white inline-flex items-center gap-x-1 px-2 py-0.5 rounded-[6px]">
 								<div className="w-[14px] h-[14px]">
