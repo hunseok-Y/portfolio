@@ -88,9 +88,9 @@ export default function Newsly() {
 					<h2 className="content-title mb-2.5">프로젝트 설명</h2>
 					<p className="text-white leading-[1.4] font-[300] md:text-[16px] text-[14px]">Newsly는 오늘의 모든 뉴스들을 보여주는 홈페이지 입니다.</p>
 					<br />
-					<p className="text-white leading-[1.4] font-[300] d:text-[16px] text-[14px]">
-						각 카테고리별로 주제에 맞는 뉴스를 제공하고 검색해서 원하는 뉴스를 찾아볼 수도 있습니다. <br />
-						북마크 기능으로 중요한 뉴스를 저장할 수 있습니다.
+					<p className="text-white leading-[1.4] font-[300] md:text-[16px] text-[14px]">
+						카테고리별로 뉴스를 둘러보거나 검색해서 원하는 정보를 찾을 수 있고, <br />
+						나중에 다시 보고 싶은 뉴스는 북마크로 저장해둘 수 있습니다.
 					</p>
 				</div>
 				<div className="md:mt-10 mt-5">
