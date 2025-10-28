@@ -7,12 +7,12 @@ export default function Project() {
 
 	return (
 		<>
-			<div className="w-full">
+			<div className="w-full mt-5 md:mt-0">
 				<h2 className="content-title">
 					팀 프로젝트와 개인 프로젝트 모음입니다. <br />
 					앞으로 더 많은 프로젝트로 채워나갈 공간입니다.
 				</h2>
-				<div className="mt-10 grid grid-cols-3 gap-x-5">
+				<div className="mt-10 flex flex-col md:grid lg:grid-cols-3 md:grid-cols-2 gap-y-5 md:gap-x-5">
 					<div
 						className="bg-white rounded-[20px] px-5 hover:translate-y-[-4px] transition-all duration-300 cursor-pointer"
 						onClick={() => {

@@ -6,7 +6,7 @@ export function CareerModal({ careerModal, setCareerModal }: { careerModal: bool
 
 	return (
 		<div
-			className="fixed py-10 top-0 left-0 w-full h-full bg-[#000000db] flex items-center justify-center"
+			className="fixed py-10 top-0 left-0 w-full h-full z-50 bg-[#000000db] flex items-center justify-center"
 			onClick={(e: React.MouseEvent<HTMLDivElement>) => {
 				if (e.target === e.currentTarget) {
 					setCareerModal(false);
