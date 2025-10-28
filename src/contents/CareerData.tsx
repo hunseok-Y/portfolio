@@ -53,7 +53,7 @@ const CareerData: CareerType[] = [
 	},
 
 	{
-		projectName: "소곳소곳 김포문화 재단",
+		projectName: "소곳소곳 김포문화",
 		img: ["/images/gcf/img_gcf01.png", "/images/gcf/img_gcf02.png", "/images/gcf/img_gcf03.png", "/images/gcf/img_gcf04.png"],
 		Language: ["html", "css", "javascript"],
 		contribution: "메인페이지 지도영역 외 모든 페이지 작업 진행했습니다.",
@@ -79,7 +79,7 @@ const CareerData: CareerType[] = [
 		site: "https://play.google.com/store/apps/details?id=com.snu.snu_basic_app",
 	},
 	{
-		projectName: "도로위 히어로즈",
+		projectName: "도로 위 히어로즈",
 		img: ["/images/heroes/img_heroes01.png", "/images/heroes/img_heroes02.png", "/images/heroes/img_heroes03.png", "/images/heroes/img_heroes04.png"],
 		Language: ["html", "css", "javascript"],
 		contribution: "모든 페이지를 혼자 담당해서 작업했습니다.",
@@ -97,7 +97,7 @@ const CareerData: CareerType[] = [
 		site: "https://www.ggtour.or.kr/dmz/index.do",
 	},
 	{
-		projectName: "문화캐미칼",
+		projectName: "문화케미칼",
 		img: ["/images/sealingm/img_sealingm01.png", "/images/sealingm/img_sealingm02.png"],
 		Language: ["html", "scss", "javascript"],
 		contribution: "모든 페이지를 혼자 담당해서 작업했습니다.",

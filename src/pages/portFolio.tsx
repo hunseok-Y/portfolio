@@ -186,7 +186,7 @@ export default function PortFolio() {
 								<li className="text-[20px] font-[700]">
 									<h3 className="content-title ">커뮤니케이션 및 유지보수</h3>
 									<ul className="dot">
-										<li>디자인&개발팀과 커뮤니케이션을 통해 계약 업체의 요구사항의 맞게 유지보수를 진행했습니다.</li>
+										<li>기획&디자인&개발팀과 커뮤니케이션을 통해 계약 업체의 요구사항의 맞게 유지보수를 진행했습니다.</li>
 										<li>프로젝트 초기 단계부터 명확한 기능 구현 방향성을 제시하고 적합한 라이브러리를 선별·제안하여, 효율적인 협업과 소통을 실현합니다.</li>
 									</ul>
 								</li>
@@ -195,8 +195,8 @@ export default function PortFolio() {
 									<ul className="dot">
 										<li>기존에 CSS만 사용해서 구현했다면 SCSS를 도입해서 더 편리한 작업을 할 수 있도록 개선하였습니다.</li>
 										<li>
-											SCSS에 있는 mixin을 사용해 기존에 사용하는 2가지 디바이스 스타일을 사용할 수 있게하고 더불어 custom을 가능하게 하여 다양한 디바이스에서 스타일을 적용 할 수
-											있도로 하였습니다.
+											SCSS에 있는 mixin을 사용해 기존에 사용하는 2가지 디바이스 스타일을 사용할 수 있게 하고 더불어 custom을 가능하게 하여 다양한 디바이스에서 스타일을 적용 할 수
+											있도록 하였습니다.
 										</li>
 										<li>flex, grid, aspect-ratio 같은 새로운 스타일 코드들도 적극 활용해서 자유자제 사용할 수 있도록 했습니다. </li>
 									</ul>
