@@ -86,7 +86,7 @@ export default function Newsly() {
 			<div className="md:py-10 py-5">
 				<div>
 					<h2 className="content-title mb-2.5">프로젝트 설명</h2>
-					<p className="text-white leading-[1.4] font-[300] md:text-[16px] text-[14px]">Newsly는 오늘의 모든 뉴스들을 보여주는 홈페이지 입니다.</p>
+					<p className="text-white leading-[1.4] font-[300] md:text-[16px] text-[14px]">Newsly는 뉴스를 모아보여주는 뉴스 큐레이션 서비스 홈페이지 입니다.</p>
 					<br />
 					<p className="text-white leading-[1.4] font-[300] md:text-[16px] text-[14px]">
 						카테고리별로 뉴스를 둘러보거나 검색해서 원하는 정보를 찾을 수 있고, <br />
