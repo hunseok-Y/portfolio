@@ -318,7 +318,7 @@ function StylingModal({ setStyleModal, styleModal }: { setStyleModal: React.Disp
 	ScrollHold(styleModal);
 
 	return (
-		<div className="fixed py-10 top-0 left-0 w-full h-full bg-[#000000db] flex items-center justify-center" onClick={() => setStyleModal(false)}>
+		<div className="fixed py-10  z-50 top-0 left-0 w-full h-full bg-[#000000db] flex items-center justify-center" onClick={() => setStyleModal(false)}>
 			<div className="text-white px-5 py-8 bg-[#1b1b1e] max-w-[1140px] w-full h-full overflow-y-auto">
 				<h2 className="content-title">코드개선 및 스타일링</h2>
 				<div className="sm:mt-14 mt-7">

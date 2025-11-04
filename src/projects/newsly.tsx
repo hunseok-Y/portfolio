@@ -71,7 +71,7 @@ export default function Newsly() {
 								<div className="w-[14px] h-[14px]">
 									<img src="/images/icon_github.svg" alt="" className="object-center object-contain w-full h-full" />
 								</div>
-								<span className="font-[700] md:text-[14px] text-[12px]">github</span>
+								<span className="font-[700] md:text-[14px] text-[12px]">GitHub</span>
 							</a>
 							<a
 								href="https://newsly-alpha.vercel.app/"

@@ -95,7 +95,7 @@ export default function Eum() {
 								<div className="w-[14px] h-[14px]">
 									<img src="/images/icon_github.svg" alt="" className="object-center object-contain w-full h-full" />
 								</div>
-								<span className="font-[700] md:text-[14px] text-[12px] ">github</span>
+								<span className="font-[700] md:text-[14px] text-[12px] ">GitHub</span>
 							</a>
 							<div className="md:text-[16px] mt-1 md:mt-0 text-[12px] text-[#ef4444] font-[400] md:ml-4 ml-0">*기간이 만료되어 운영중이지 않습니다.</div>
 						</div>
